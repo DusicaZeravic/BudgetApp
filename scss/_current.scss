@@ -1,0 +1,30 @@
+#current {
+    height: 300px;
+    background-color: rgb(177, 51, 51);
+    color: seashell;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: 2px;
+    font-size: 20px;
+    .currentPar {
+        font-size: 60px;
+        padding: 20px;
+    }
+    .incomeSum,
+    .expensesSum {
+        font-size: 20px;
+        padding: 10px;
+        width: 400px;
+    }
+    .incomeSum,
+    .expensesSum {
+        p {
+            float: left;
+        }
+        span {
+            float: right;
+        }
+    }
+}

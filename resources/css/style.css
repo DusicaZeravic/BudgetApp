@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+#current {
+  height: 300px;
+  background-color: #b13333;
+  color: seashell;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+#current .currentPar {
+  font-size: 60px;
+  padding: 20px;
+}
+
+#current .incomeSum,
+#current .expensesSum {
+  font-size: 20px;
+  padding: 10px;
+  width: 400px;
+}
+
+#current .incomeSum p,
+#current .expensesSum p {
+  float: left;
+}
+
+#current .incomeSum span,
+#current .expensesSum span {
+  float: right;
+}
+
+form {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form #choice,
+form #description,
+form #amount,
+form #submit-btn {
+  margin-left: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #f8f8f8;
+}
+
+form #description {
+  width: 400px;
+}
+
+form #description ::-webkit-input-placeholder {
+  text-align: left;
+}
+
+form #description :-ms-input-placeholder {
+  text-align: left;
+}
+
+form #description ::-ms-input-placeholder {
+  text-align: left;
+}
+
+form #description ::placeholder {
+  text-align: left;
+}
+
+form #submit-btn {
+  width: 50px;
+  color: rgba(20, 170, 58, 0.932);
+  cursor: pointer;
+}
+
+.errorMessage {
+  text-align: center;
+  color: #b13333;
+}
+
+.report {
+  height: 300px;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.report #income,
+.report #expenses {
+  margin: 20px auto;
+}
+
+.report #income h4,
+.report #expenses h4 {
+  font-size: 20px;
+  color: #5c5b5b;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.report #income .list,
+.report #expenses .list {
+  margin-top: 10px;
+}
+
+.list .element {
+  width: 400px;
+  height: 50px;
+  list-style: none;
+  font-size: 18px;
+  line-height: 50px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  text-indent: 10px;
+  position: relative;
+}
+
+.list .element p {
+  float: left;
+}
+
+.list .element span {
+  float: right;
+  padding-right: 50px;
+}
+
+.list .element .delete-btn {
+  display: none;
+  float: right;
+  border: none;
+  cursor: pointer;
+  color: #c21f1f;
+  background: transparent;
+  line-height: 50px;
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+}
+
+.list .element :hover + .delete-btn,
+.list .element .delete-btn:hover {
+  display: block;
+}
+
+#expenses .list .element {
+  background: rgba(245, 32, 32, 0.1);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Raleway", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,33 @@
+form {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #choice,
+    #description,
+    #amount,
+    #submit-btn {
+        margin-left: 40px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        background-color: rgb(248, 248, 248);
+    }
+    #description {
+        width: 400px;
+        ::placeholder {
+            text-align: left;
+        }
+    }
+    #submit-btn {
+        width: 50px;
+        color: rgba(20, 170, 58, 0.932);
+        cursor: pointer;
+    }
+}
+
+.errorMessage {
+    text-align: center;
+    color: rgb(177, 51, 51);
+}
